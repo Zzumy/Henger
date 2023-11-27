@@ -20,7 +20,7 @@ public class Cso extends TomorHenger {
 
     @Override
     public double terfogat() {
-        return 0;
+        return super.terfogat() - new Henger(super.getSugar() - falvastagsag, super.getMagassag()).terfogat();
     }
 
     @Override
